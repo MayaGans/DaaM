@@ -23,7 +23,7 @@
     {date: "1993", count: 0},
     {date: "1994", count: 1},
     {date: "1995", count: 1},
-    {date: "1990", count: 0},
+    {date: "1996", count: 0},
     {date: "1997", count: 1},
     {date: "1998", count: 0},
     {date: "1999", count: 0},
@@ -49,7 +49,7 @@
   onMount(() => {
   
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
+    width = 700 - margin.left - margin.right,
     height = 200 - margin.top - margin.bottom;
 
 // set the ranges

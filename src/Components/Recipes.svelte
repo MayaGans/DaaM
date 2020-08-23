@@ -11,9 +11,9 @@
     <h1>{HEADING}</h1>
     <div class="row section-body">
       {#each RECIPE_LIST as list}
-        <div class="col-md-4 service">
+        <div class="col-md-3 service">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
-          <h6>{list.LABEL}</h6>
+          <a href={list.LINK}><p>{list.LABEL}</p></a>
         </div>
       {/each}
     </div>
@@ -24,9 +24,25 @@
 <!------------------------------------------->
 <style>
   .service-img {
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px; 
+  }
+
+  p {
+    font-size: 12px;
   }
 
   .service h4 {

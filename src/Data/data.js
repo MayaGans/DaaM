@@ -23,37 +23,127 @@ const RECIPE_DATA = {
       LABEL: "Sue & Trey’s “Between Me and My Mouth” Vegetarian Chili",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/announcing-dinner-and-a-movie-tuesday-evenings/",
-      URL: "images/service1.png"
+      URL: "images/chili.jpg"
     },
     {
       LABEL: "Hen Of The Wood Mushroom Toast",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-2-announced/",
-      URL: "images/service1.png"
+      URL: "images/henofthewoods.jpg"
     },
     {
       LABEL: "Page’s Tuna Fish Sandwich",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-3/",
-      URL: "images/service1.png"
+      URL: "images/tuna.png"
     },
     {
       LABEL: "(Magna) Meatballs And Tomato Sauce",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-5-7-9-19-uncasville-ct/",
-      URL: "images/service1.png"
+      URL: "images/spaghetti.jpg"
     },
     {
       LABEL: "Grandmoony’s Eggplant Parmigiana",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-6-10-28-16-las-vegas-nv/",
-      URL: "images/service1.png"
+      URL: "images/eggplant.jpg"
     },
     {
       LABEL: "Cauliflower Vegan Tacos",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-7-1-15-17-riviera-maya-mexico/",
-      URL: "images/service1.png"
+      URL: "images/taco.jpg"
+    },
+    {
+      LABEL: "Kale Salad and Fish Cakes",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep8/",
+      URL: "images/kale.jpg"
+    },
+    {
+      LABEL: "Italian American Stuffed Peppers",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/dinner-and-a-movie-ep-9-7-21-97-virginia-beach-va/",
+      URL: "images/peppers.jpeg"
+    },
+    {
+      LABEL: "Veggie Ramen",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep10/",
+      URL: "images/ramen.jpg"
+    },
+    {
+      LABEL: "Red Beans & Rice",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep11/",
+      URL: "images/redbeans.png"
+    },
+    {
+      LABEL: "Miso-Glazed Salmon with Bok Choy and Brown Rice",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep12/",
+      URL: "images/salmon.png"
+    },
+    {
+      LABEL: "Grilled Chicken and Sweet Potato with Salsa Verde and Green Bean Salad",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep13/",
+      URL: "images/chicken.png"
+    },
+    {
+      LABEL: "Spanakopita",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-14/",
+      URL: "images/spanikopita.png"
+    },
+    {
+      LABEL: "Classic Burger",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep15/",
+      URL: "images/burger.jpg"
+    },
+    {
+      LABEL: "Thai Coconut Yellow Curry",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep16/",
+      URL: "images/curry.png"
+    },
+    {
+      LABEL: "Penny Cluse Biscuits & Herb Cream Gravy",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep17/",
+      URL: "images/biscuits.png"
+    },
+    {
+      LABEL: "The Federal Donuts Fried Chicken Sandwich",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep18/",
+      URL: "images/friedchicken.png"
+    },
+    {
+      LABEL: "Chicken On A Stick",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep19/",
+      URL: "images/kebab.jpg"
+    },
+    {
+      LABEL: "Betty’s Summer Harvest Dinner",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep20/",
+      URL: "images/peaches.png"
+    },
+    {
+      LABEL: "Tomato Tart",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep21/",
+      URL: "images/tomato.jpeg"
+    },
+    {
+      LABEL: "Cucumber Gazpacho",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep23/",
+      URL: "images/soup.jpg"
     }
   ]
 };
