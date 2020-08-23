@@ -9,6 +9,7 @@
 <section id="dinners" class="section">
   <div class="container text-center">
     <h1>{HEADING}</h1>
+    <h5>Select a dinner to get the recipe</h5>
     <div class="row section-body">
       {#each RECIPE_LIST as list}
         <div class="col-md-3 service">
