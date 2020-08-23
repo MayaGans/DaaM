@@ -32,7 +32,8 @@
     {date: "2004", count: 0},
     {date: "2009", count: 0},
     {date: "2010", count: 1},
-    {date: "2012", count: 3},
+    {date: "2011", count: 1},
+    {date: "2012", count: 2},
     {date: "2013", count: 2},
     {date: "2014", count: 1},
     {date: "2015", count: 2},
@@ -111,9 +112,8 @@
       .attr("font-size", "7px")
       .attr("fill", "#DBE4DF")
       .attr("color", "#DBE4DF")
-
-
 });
+
 </script>
 
 <style>

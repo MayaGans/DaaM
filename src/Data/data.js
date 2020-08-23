@@ -280,10 +280,10 @@ const SHOW_DATA = {
     link: "https://phish.net/setlists/phish-august-19-2012-bill-graham-civic-auditorium-san-francisco-ca-usa.html"
   },
   {
-    date: "2012-08-19", 
+    date: "2011-08-15", 
     venue: "UIC Pavilion", 
     location: "Chicago. IL", 
-    link: "https://phish.net/setlists/phish-august-19-2012-bill-graham-civic-auditorium-san-francisco-ca-usa.html"
+    link: "https://phish.net/setlists/phish-august-15-2011-uic-pavilion-university-of-illinois-chicago-il-usa.html"
   },
   ]
 };
