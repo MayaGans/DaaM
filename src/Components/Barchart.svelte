@@ -48,7 +48,7 @@
   
   onMount(() => {
   
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    var margin = {top: 20, right: 25, bottom: 30, left: 40},
     width = 700 - margin.left - margin.right,
     height = 200 - margin.top - margin.bottom;
 
@@ -63,8 +63,7 @@ var y = d3.scaleLinear()
 // append a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
 var svg = d3.select(el).append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+     .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
   .append("g")
     .attr("transform", 
           "translate(" + margin.left + "," + margin.top + ")");
