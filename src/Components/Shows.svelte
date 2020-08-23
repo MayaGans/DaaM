@@ -1,6 +1,20 @@
 <script>
-  export let showData = {};
-  const { HEADING, TITLE, IMAGE_URL, SHOWS_LIST } = showData;
+import { listen } from "svelte/internal";
+
+export let showData = {};
+const { HEADING, TITLE, IMAGE_URL, SHOWS_LIST } = showData;
+
+export let year = "";
+export let newArray = showData.SHOWS_LIST;
+
+const handleInput = (e) => {
+  year = e.target.value;
+  let test = showData.SHOWS_LIST
+  newArray = test.filter(function (el) {
+    return el.date.includes(year) 
+  });
+}
+
 </script>
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
@@ -9,28 +23,47 @@
 <section id="shows" class="section">
   <div class="container text-center">
     <h1>{HEADING}</h1>
-    <p>Click on the show to see the setlist over at phish.net</p>
+    <h5>Click on the show to see the setlist over at phish.net</h5>
+
+    <div class="yearinput">
+      <label for="year">Year:</label>
+      <input id="year" type="text" on:input={handleInput} />
+    <div>
+
+    {#if newArray.length == 0}
+    <h4 class="noshows">No shows for selected year</h4>
+    {:else}
     <div class="row section-body">
-      {#each SHOWS_LIST as list}
-        <a href={list.link} target="_blank">
+      {#each newArray as list}
+      <a href={list.link} target="_blank">
         <div class="color-card">
           <h4>{list.date}</h4>
           <p class="top">{list.venue}</p>
           <p class="bottom">{list.location}</p>
         </div>
-        </a>
+      </a>
       {/each}
     </div>
+    {/if}
+
   </div>
 </section>
 
 <!------------------------------------------->
-<!----------------STYLE----------------------->
+<!----------------STYLE---------------------->
 <!------------------------------------------->
 <style>
   a {
     text-decoration: none;
     color: black;
+  }
+
+  .yearinput {
+    padding-top: 100px;
+  }
+
+  .noshows {
+    padding-top: 50px;
   }
 
   .color-card {
@@ -61,4 +94,5 @@
     color: black;
     text-decoration: none;
   }
+
 </style>
