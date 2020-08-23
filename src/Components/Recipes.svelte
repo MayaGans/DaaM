@@ -13,7 +13,7 @@
       {#each RECIPE_LIST as list}
         <div class="col-md-3 service">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
-          <a href={list.LINK}><p>{list.LABEL}</p></a>
+          <a href={list.LINK} target="_blank"><p>{list.LABEL}</p></a>
         </div>
       {/each}
     </div>
@@ -83,6 +83,5 @@
     box-shadow: none;
     padding: 8px 25px;
     border: none;
-    background-color: #DBE4DF;
   }
 </style>
