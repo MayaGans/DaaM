@@ -9,12 +9,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
+        <p><a href="https://www.youtube.com/channel/UCDEPOd0RCvw8iSTqFpSBZLA" target="_blank">Watch Now</a></p>
         <h1>{HEADING}</h1>
         <p>{DECRIPTION}</p>
       </div>
       <div class="col-md-6">
-        <img src="images/daam_dark.png" alt="" class="img-fluid" />
-      </div>
+        <!-- 
+          <img src="images/daam_dark.png" alt="" class="img-fluid" />
+        -->
+        </div>
     </div>
   </div>
 </section>
@@ -22,6 +25,16 @@
 <!----------------STYLE----------------------->
 <!------------------------------------------->
 <style>
+
+  a {
+    text-decoration: none;
+    color: #DBE4DF;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
 
   section {
     padding-top: 5%;
