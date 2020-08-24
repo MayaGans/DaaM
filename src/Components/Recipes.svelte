@@ -14,7 +14,7 @@
       {#each RECIPE_LIST as list}
         <div class="col-md-3 service">
           <img src={list.URL} alt={list.LABEL} class="service-img" />
-          <a href={list.LINK} target="_blank"><p>{list.LABEL}</p></a>
+          <a href={list.LINK} target="_blank"><p class="listlabel">{list.LABEL}</p></a>
         </div>
       {/each}
     </div>
@@ -31,6 +31,9 @@
     margin-bottom: 5px;
   }
 
+  .listlabel {
+    font-weight: 500 !important;
+  }
   
   a {
     text-decoration: none;

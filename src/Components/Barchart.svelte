@@ -104,14 +104,17 @@
       .attr("x", (d, i) => x(i) + 7)
       .attr("y", d => y(d.count) + 12)
       .attr("font-family", "sans-serif")
-      .attr("font-size", "11px")
-      .attr("fill", "black");
+      .attr("font-size", "9px")
+      .attr("fill", "black")
+      .attr("font-family", "Raleway")
+      .attr("font-weight", "500")
 
   svg.append("g")
       .call(xAxis)
       .attr("font-size", "7px")
       .attr("fill", "#DBE4DF")
       .attr("color", "#DBE4DF")
+      .attr("font-family", "Raleway")
 });
 
 </script>
