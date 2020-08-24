@@ -37,6 +37,7 @@ const handleInput = (e) => {
       {#each newArray as list}
       <a href={list.link} target="_blank">
         <div class="color-card">
+          <p class="episode">{list.ep}</p>
           <h4>{list.date}</h4>
           <p class="top">{list.venue}</p>
           <p class="bottom">{list.location}</p>
@@ -58,6 +59,12 @@ const handleInput = (e) => {
     color: black;
   }
 
+  .episode {
+    font-size: 10px;
+    padding-bottom: 15px;
+    color: grey;
+  }
+
   .yearinput {
     padding-top: 100px;
   }
@@ -77,7 +84,7 @@ const handleInput = (e) => {
     margin: 1rem;
     padding-top: 15px;
     width: 200px;
-    height: 160px;
+    height: 200px;
     padding: 15px;
     background-color: #fcfcfc;
   }
@@ -89,6 +96,7 @@ const handleInput = (e) => {
   .top {
     margin-bottom: 0rem;
     color: grey;
+    font-size: 12px;
   }
 
   .bottom {
