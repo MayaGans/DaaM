@@ -16,41 +16,50 @@
   let el;
 
   let data = [
-    {date: "1989", count: 1},
-    {date: "1990", count: 0},
-    {date: "1991", count: 0},
-    {date: "1992", count: 0},
-    {date: "1993", count: 0},
-    {date: "1994", count: 1},
-    {date: "1995", count: 1},
-    {date: "1996", count: 0},
-    {date: "1997", count: 1},
-    {date: "1998", count: 0},
-    {date: "1999", count: 0},
-    {date: "2000", count: 0},
-    {date: "2003", count: 0},
-    {date: "2004", count: 0},
-    {date: "2009", count: 0},
-    {date: "2010", count: 1},
-    {date: "2011", count: 1},
-    {date: "2012", count: 2},
-    {date: "2013", count: 2},
-    {date: "2014", count: 1},
-    {date: "2015", count: 2},
-    {date: "2016", count: 1},
-    {date: "2017", count: 3},
-    {date: "2018", count: 3},
-    {date: "2019", count: 2}
+    {date: "1989", count: 1, year: ["1989-01-01"]},
+    {date: "1990", count: 0 , year: []},
+    {date: "1991", count: 0 , year: []},
+    {date: "1992", count: 0 , year: []},
+    {date: "1993", count: 0 , year: []},
+    {date: "1994", count: 1 , year: ["1994-07-08"]},
+    {date: "1995", count: 1 , year: ["1995-06-19"]},
+    {date: "1996", count: 0 , year: []},
+    {date: "1997", count: 1 , year: ["1997-07-21"]},
+    {date: "1998", count: 0 , year: []},
+    {date: "1999", count: 0 , year: []},
+    {date: "2000", count: 0 , year: []},
+    {date: "2003", count: 0 , year: []},
+    {date: "2004", count: 0 , year: []},
+    {date: "2009", count: 0 , year: []},
+    {date: "2010", count: 1 , year: ["2010-08-07"]},
+    {date: "2011", count: 1 , year: ["2011-08-15"]},
+    {date: "2012", count: 2 , year: ["2012-08-31", "2012-08-19"]},
+    {date: "2013", count: 2 , year: ["2013-07-26", "2013-10-20"]},
+    {date: "2014", count: 1 , year: ["2014-07-27"]},
+    {date: "2015", count: 2 , year: ["2015-08-22", "2015-08-12"]},
+    {date: "2016", count: 1 , year: ["2016-10-28"]},
+    {date: "2017", count: 3 , year: ["2017-07-25", "2017-01-15", "2017-07-28"]},
+    {date: "2018", count: 3 , year: ["2018-08-03", "2018-12-29", "2018-10-26"]},
+    {date: "2019", count: 2 , year: ["2019-07-09", "2019-07-14"]}
 ]
 
 // we are appending SVG first
   
   onMount(() => {
 
+    var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .style("color", "black")
+    .style("background-color", "#DBE4DF")
+    .style("font-size", "10px")
+
     let color = "white"
     
     var margin = {top: 20, right: 25, bottom: 30, left: 40},
-    width = 700 - margin.left - margin.right,
+    width = 600 - margin.left - margin.right,
     height = 200 - margin.top - margin.bottom;
 
     let x = d3.scaleBand()
@@ -90,7 +99,14 @@
     } else {
         return "black";
     }
-});
+})
+.on('mouseover', function (d, i) { 
+  tooltip.html(d.year.join("<br/>"))
+  return tooltip.style("visibility", "visible")
+})
+.on('mouseout', function (d, i) { return tooltip.style("visibility", "hidden") })
+.on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-20)+"px").style("left",(d3.event.pageX+20)+"px");})
+
      
  //create a new empty selection for the labels
  //then use normal d3 data join pattern

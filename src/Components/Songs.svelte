@@ -70,7 +70,6 @@ const makeChart = () => {
     .style("z-index", "10")
     .style("visibility", "hidden")
     .style("color", "#DBE4DF")
-    .text("a simple tooltip");
 
  let x = d3.scaleLinear()
     .domain(d3.extent(data, d => d.x)).nice()
@@ -132,7 +131,7 @@ const makeChart = () => {
 
       return tooltip.style("visibility", "hidden")
     })
-    .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+    .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-20)+"px").style("left",(d3.event.pageX+20)+"px");})
 
   svg.append("g")
       .attr("font-size", 5)
