@@ -122,7 +122,7 @@
 <style>
 
   .chart {
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     padding-top: 50px;
     background-color: black;
   }
@@ -136,6 +136,6 @@
 </style>
 
 <section id="metrics" class="containd3">
-  <h1>Annual Distribution</h1>
+  <h3>Annual Distribution</h3>
 <div bind:this={el} class="chart"></div>
 </section>
