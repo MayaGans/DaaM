@@ -13,6 +13,6 @@
 <Banner bannerData={DATA.BANNER_DATA} />
 <Shows showData={DATA.SHOW_DATA} />
 <Barchart barData={DATA.SHOW_DATA}/>
-<!-- <Songs /> -->
+<Songs />
 <Recipes recipeData={DATA.RECIPE_DATA} />
 <Footer footerData={DATA.FOOTER_DATA} header={DATA.HEADER} />
