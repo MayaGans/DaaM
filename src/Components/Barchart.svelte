@@ -54,11 +54,11 @@
     .style("visibility", "hidden")
     .style("color", "black")
     .style("background-color", "#DBE4DF")
-    .style("font-size", "10px")
+    .style("font-size", "12px")
 
     let color = "white"
     
-    var margin = {top: 20, right: 25, bottom: 30, left: 40},
+    var margin = {top: 20, right: 25, bottom: 30, left: 25},
     width = 600 - margin.left - margin.right,
     height = 200 - margin.top - margin.bottom;
 
@@ -69,9 +69,7 @@
 
     let y = d3.scaleLinear()
     .domain([0, d3.max(data, d => d.count)]).nice()
-    .range([height - margin.bottom, margin.top])
-
-
+    .range([height, 0])
 
     let xAxis = g => g
     .attr("transform", `translate(0,${height - margin.bottom + 35})`)

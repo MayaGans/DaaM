@@ -37,7 +37,7 @@ const makeChart = () => {
         top: 15,
         right: 15,
         bottom: 40,
-        left: 70,
+        left: 50,
       }
     }
 
@@ -51,8 +51,10 @@ const makeChart = () => {
 
   const wrapper = d3.select(el)
       .append("svg")
-      .attr("width", dimensions.width)
-      .attr("height", dimensions.height)
+      .attr("viewBox", `0 0 ${dimensions.width + dimensions.margin.left + dimensions.margin.right} ${dimensions.height + dimensions.margin.top + dimensions.margin.bottom}`)
+      .append("g")
+    .attr("transform", 
+          "translate(" + dimensions.margin.left + "," + dimensions.margin.top + ")");
 
   let bounds = wrapper.append("g")
     .style("transform", `translate(${
@@ -63,6 +65,7 @@ const makeChart = () => {
   let yScale = d3.scaleLinear()
     .domain(d3.extent(data, yAccessor))
     .range([dimensions.boundedHeight, 0])
+    .nice()
 
   let xScale = d3.scaleTime() 
    .domain(d3.extent(data, xAccessor)) 
@@ -123,6 +126,15 @@ bounds.append("g")
 
 let yAxis = bounds.append("g") .call(yAxisGenerator).attr("font-family", "Raleway")
 
+const yAxisLabel = yAxis.append("text")
+.attr("x", -dimensions.boundedHeight / 2)
+.attr("y", -dimensions.margin.left + 10)
+.attr("fill", "#DBE4DF")
+.style("font-size", "1.4em")
+.text("Time (minutes)")
+.style("transform", "rotate(-90deg)")
+.style("text-anchor", "middle")
+
   }
 
 const updateChart = () => {
@@ -172,6 +184,7 @@ const updateChart = () => {
   width: 80%;
     float: left;
     padding: 20px;
+    padding-left: 5px;
     height: 100%;
     background-color: black;
 }  
