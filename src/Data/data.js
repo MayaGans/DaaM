@@ -142,8 +142,14 @@ const RECIPE_DATA = {
     {
       LABEL: "Cucumber Gazpacho",
       DESCRIPTION: "Venue",
-      LINK: "https://phish.com/news/daam-ep23/",
+      LINK: "https://phish.com/news/daam-ep22/",
       URL: "images/soup.jpg"
+    },
+    {
+      LABEL: "Labor Day Weekend Menu",
+      DESCRIPTION: "Venue",
+      LINK: "https://s3-us-west-1.amazonaws.com/assets.livephish.com/78erphish2018456tr4/DAAM+Dicks+2020.pdf",
+      URL: "images/laborday.png"
     }
   ]
 };
@@ -306,6 +312,28 @@ const SHOW_DATA = {
     venue: "UIC Pavilion", 
     location: "Chicago. IL", 
     link: "https://phish.net/setlists/phish-august-15-2011-uic-pavilion-university-of-illinois-chicago-il-usa.html"
+  },
+  // update
+  {
+    ep: "Episode 23",
+    date: "2017-09-01", 
+    venue: "Dicks Sporting Goods Park", 
+    location: "Commerce City, CO", 
+    link: "https://phish.net/setlists/phish-september-01-2017-dicks-sporting-goods-park-commerce-city-co-usa.html"
+  },
+  {
+    ep: "Episode 23",
+    date: "2012-09-01", 
+    venue: "Dicks Sporting Goods Park", 
+    location: "Commerce City, CO", 
+    link: "https://phish.net/setlists/phish-september-01-2012-dicks-sporting-goods-park-commerce-city-co-usa.html"
+  },
+  {
+    ep: "Episode 23",
+    date: "2015-09-06", 
+    venue: "Dicks Sporting Goods Park", 
+    location: "Commerce City, CO", 
+    link: "https://phish.net/setlists/phish-september-06-2015-dicks-sporting-goods-park-commerce-city-co-usa.html"
   },
   ]
 };
