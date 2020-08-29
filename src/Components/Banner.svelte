@@ -14,9 +14,7 @@
         <p>{DECRIPTION}</p>
       </div>
       <div class="col-md-6">
-        <!-- 
-          <img src="images/daam_dark.png" alt="" class="img-fluid" />
-        -->
+          <img src="images/featured.png" alt="" class="img-fluid" />
         </div>
     </div>
   </div>
