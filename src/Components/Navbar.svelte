@@ -6,7 +6,7 @@
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
 <section id="nav-bar">
-  <nav class="navbar main-bgcolor navbar-expand-md navbar-dark">
+  <nav class="navbar navbar-expand-md navbar-dark">
     <a class="navbar-brand company_brand" href="/">
       {header}
     </a>
@@ -40,6 +40,7 @@
     top: 0;
     z-index: 10;
     color: white;
+    background-image: linear-gradient(to right, #3ca272, #009e8c, #0098a3, #0090b2, #0085b8, #007bb0, #0071a7, #00679e, #005d8b, #065378, #0d4966, #133f55);
   }
 
   .navbar {

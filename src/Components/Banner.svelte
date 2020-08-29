@@ -5,7 +5,7 @@
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
-<section class="dark-color" id="banner">
+<section id="banner">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
