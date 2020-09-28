@@ -150,7 +150,13 @@ const RECIPE_DATA = {
       DESCRIPTION: "Venue",
       LINK: "https://s3-us-west-1.amazonaws.com/assets.livephish.com/78erphish2018456tr4/DAAM+Dicks+2020.pdf",
       URL: "images/laborday.png"
-    }
+    },
+    {
+      LABEL: "Enchiladas",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/dinner-and-a-movie-ep-26-7-23-99-columbus-oh/",
+      URL: "images/enchiladas.png"
+    },
   ]
 };
 
@@ -335,6 +341,13 @@ const SHOW_DATA = {
     location: "Commerce City, CO", 
     link: "https://phish.net/setlists/phish-september-06-2015-dicks-sporting-goods-park-commerce-city-co-usa.html"
   },
+  {
+    ep: "Episode 24",
+    date: "1999-07-23", 
+    venue: "Polaris Amphitheater", 
+    location: "Columbus, OH", 
+    link: "https://phish.net/setlists/phish-july-23-1999-polaris-amphitheater-columbus-oh-usa.html"
+  }
   ]
 };
 

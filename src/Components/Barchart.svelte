@@ -26,7 +26,7 @@
     {date: "1996", count: 0 , year: []},
     {date: "1997", count: 1 , year: ["1997-07-21"]},
     {date: "1998", count: 0 , year: []},
-    {date: "1999", count: 0 , year: []},
+    {date: "1999", count: 1 , year: ["1999-07-23"]},
     {date: "2000", count: 0 , year: []},
     {date: "2003", count: 0 , year: []},
     {date: "2004", count: 0 , year: []},
