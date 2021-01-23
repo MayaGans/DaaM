@@ -157,6 +157,30 @@ const RECIPE_DATA = {
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-26-7-23-99-columbus-oh/",
       URL: "images/enchiladas.png"
     },
+    {
+      LABEL: "Primal Soup",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep27/",
+      URL: ""
+    },
+    {
+      LABEL: "Brussels Sprouts Salad",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep28/",
+      URL: ""
+    },
+    {
+      LABEL: "Chess Menue",
+      DESCRIPTION: "Venue",
+      LINK: "https://s3-us-west-1.amazonaws.com/assets.livephish.com/78erphish2018456tr4/DAAM_NYE_Menu.pdf",
+      URL: ""
+    },
+    {
+      LABEL: "Chicken Pot Pies",
+      DESCRIPTION: "Venue",
+      LINK: "https://phish.com/news/daam-ep30/",
+      URL: ""
+    },
   ]
 };
 
@@ -328,25 +352,53 @@ const SHOW_DATA = {
     link: "https://phish.net/setlists/phish-september-01-2017-dicks-sporting-goods-park-commerce-city-co-usa.html"
   },
   {
-    ep: "Episode 23",
+    ep: "Episode 24",
     date: "2012-09-01", 
     venue: "Dicks Sporting Goods Park", 
     location: "Commerce City, CO", 
     link: "https://phish.net/setlists/phish-september-01-2012-dicks-sporting-goods-park-commerce-city-co-usa.html"
   },
   {
-    ep: "Episode 23",
+    ep: "Episode 25",
     date: "2015-09-06", 
     venue: "Dicks Sporting Goods Park", 
     location: "Commerce City, CO", 
     link: "https://phish.net/setlists/phish-september-06-2015-dicks-sporting-goods-park-commerce-city-co-usa.html"
   },
   {
-    ep: "Episode 24",
+    ep: "Episode 26",
     date: "1999-07-23", 
     venue: "Polaris Amphitheater", 
     location: "Columbus, OH", 
     link: "https://phish.net/setlists/phish-july-23-1999-polaris-amphitheater-columbus-oh-usa.html"
+  },
+  {
+    ep: "Episode 27",
+    date: "Halloween", 
+    venue: "MGM Grand | The Omni", 
+    location: "Las Vegas, NV | Atlanta, GA", 
+    link: ""
+  },
+  {
+    ep: "Episode 28",
+    date: "1997-11-22", 
+    venue: "Hampton Coliseum", 
+    location: "Hampton, VA", 
+    link: "https://phish.net/setlists/phish-november-22-1997-hampton-coliseum-hampton-va-usa.html"
+  },
+  {
+    ep: "Episode 29",
+    date: "1995-12-31", 
+    venue: "MSG", 
+    location: "New York City, NY", 
+    link: "https://phish.net/setlists/phish-december-31-1995-madison-square-garden-new-york-ny-usa.html"
+  },
+  {
+    ep: "Episode 30",
+    date: "2003-07-25", 
+    venue: "Verizon Wireless Amphitheatre", 
+    location: "Charlotte, NC", 
+    link: "https://phish.net/setlists/phish-july-25-2003-verizon-wireless-amphitheatre-charlotte-charlotte-nc-usa.html"
   }
   ]
 };

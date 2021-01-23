@@ -5,7 +5,7 @@
 
   let el;
   let sng = "a";
-  let scoops = "AC/DC Bag";
+  let scoops = "Tweezer";
 
   let data = allsongs;
 
@@ -236,15 +236,16 @@
       <div bind:this={el} class="chart2" />
     </div>
 
+
     <div class="float-child-2">
       <label class="selected_song">
-        <input type="radio" bind:group={scoops} value={'AC/DC Bag'} />
-        AC/DC Bag
+        <input type="radio" bind:group={scoops} value={'Tweezer'} />
+        Tweezer
       </label>
       <br />
       <label class="selected_song">
-        <input type="radio" bind:group={scoops} value={'David Bowie'} />
-        David Bowie
+        <input type="radio" bind:group={scoops} value={'You Enjoy Myself'} />
+        You Enjoy Myself
       </label>
       <br />
       <label class="selected_song">
@@ -253,19 +254,15 @@
       </label>
       <br />
       <label class="selected_song">
-        <input type="radio" bind:group={scoops} value={'Possum'} />
-        Possum
+        <input type="radio" bind:group={scoops} value={'David Bowie'} />
+        David Bowie
       </label>
       <br />
       <label class="scoop">
-        <input type="radio" bind:group={scoops} value={'Tweezer'} />
-        Tweezer
+        <input type="radio" bind:group={scoops} value={'Ghost'} />
+        Ghost
       </label>
       <br />
-      <label class="scoop">
-        <input type="radio" bind:group={scoops} value={'You Enjoy Myself'} />
-        You Enjoy Myself
-      </label>
     </div>
 
   </div>
