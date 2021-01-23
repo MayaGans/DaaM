@@ -161,25 +161,25 @@ const RECIPE_DATA = {
       LABEL: "Primal Soup",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep27/",
-      URL: ""
+      URL: "images/soup.jpg"
     },
     {
       LABEL: "Brussels Sprouts Salad",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep28/",
-      URL: ""
+      URL: "images/brussels.jpg"
     },
     {
-      LABEL: "Chess Menue",
+      LABEL: "Chess Menu",
       DESCRIPTION: "Venue",
       LINK: "https://s3-us-west-1.amazonaws.com/assets.livephish.com/78erphish2018456tr4/DAAM_NYE_Menu.pdf",
-      URL: ""
+      URL: "images/char.png"
     },
     {
-      LABEL: "Chicken Pot Pies",
+      LABEL: "Chicken Pot Pie",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep30/",
-      URL: ""
+      URL: "images/chickenpot.jpg"
     },
   ]
 };
