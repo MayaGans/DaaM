@@ -92,13 +92,13 @@ const RECIPE_DATA = {
       URL: "images/chicken.png"
     },
     {
-      LABEL: "Spanakopita",
+      LABEL: "Spanakopita, Lamb Meatballs, Watermelon and Feta Salad",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-14/",
       URL: "images/spanikopita.png"
     },
     {
-      LABEL: "Classic Burger",
+      LABEL: "Classic Burger, Pasta Salad",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep15/",
       URL: "images/burger.jpg"
@@ -116,13 +116,13 @@ const RECIPE_DATA = {
       URL: "images/biscuits.png"
     },
     {
-      LABEL: "The Federal Donuts Fried Chicken Sandwich",
+      LABEL: "The Federal Donuts Fried Chicken Sandwich and Double Chocolate Doughnut",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep18/",
       URL: "images/friedchicken.png"
     },
     {
-      LABEL: "Chicken On A Stick",
+      LABEL: "Chicken On A Stick, Roasted Mushrooms, and Ben and Jerry's Ice Cream Sandwiches",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep19/",
       URL: "images/kebab.jpg"
@@ -134,13 +134,13 @@ const RECIPE_DATA = {
       URL: "images/peaches.png"
     },
     {
-      LABEL: "Tomato Tart",
+      LABEL: "Tomato Tart, Endive/Fennel/Orange Salad, Key Lime Pie",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep21/",
       URL: "images/tomato.jpeg"
     },
     {
-      LABEL: "Cucumber Gazpacho",
+      LABEL: "Cucumber Gazpacho, Sweet Corn Risotto, Tahini Brownies",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep22/",
       URL: "images/soup.jpg"
@@ -152,19 +152,19 @@ const RECIPE_DATA = {
       URL: "images/laborday.png"
     },
     {
-      LABEL: "Enchiladas",
+      LABEL: "Enchiladas and Jicama, Orange, Cucumber and Mint Salad",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/dinner-and-a-movie-ep-26-7-23-99-columbus-oh/",
       URL: "images/enchiladas.png"
     },
     {
-      LABEL: "Primal Soup",
+      LABEL: "Primal Soup, Delicata Squash Tempura, and Ghost Brownies",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep27/",
       URL: "images/soup.jpg"
     },
     {
-      LABEL: "Brussels Sprouts Salad",
+      LABEL: "Butternut Squash Soup, Brussels Sprouts Salad, Sticky Toffee Pudding with Spiced Caramel Sauce",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep28/",
       URL: "images/brussels.jpg"
@@ -176,7 +176,7 @@ const RECIPE_DATA = {
       URL: "images/char.png"
     },
     {
-      LABEL: "Chicken Pot Pie",
+      LABEL: "Chicken Pot Pies",
       DESCRIPTION: "Venue",
       LINK: "https://phish.com/news/daam-ep30/",
       URL: "images/chickenpot.jpg"
